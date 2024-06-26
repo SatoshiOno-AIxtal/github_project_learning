@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Markdown lint
-        uses: articulate/action-markdownlint@v1
+        uses: articulate/actions-markdownlint@v1
         with:
           config: .github/markdownlint/config.json
           files: '**/*.md'
